@@ -1,6 +1,6 @@
 #include <Arduino.h>
 #include "MenueControl.h"
-#include <String.h>
+#include <string.h>
 
 String MenueControl::getMenueString(int *zeiger,int *pressedTaster,int *minBrightness,int *maxBrightness){
     String returnString = "fail";
