@@ -824,10 +824,11 @@ void updateMatrix(byte payload[], int length)
 		case 8:
 		{
 			//Command 8: Show
-			if (notify)
+			/*if (notify)
 			{
 				matrix->drawPixel(31, 0, matrix->Color(200, 0, 0));
 			}
+			*/
 			matrix->show();
 			break;
 		}
